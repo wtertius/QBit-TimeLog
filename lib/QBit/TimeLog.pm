@@ -71,7 +71,7 @@ sub init {
 
     $self->SUPER::init();
 
-    weaken($self->{'parent'}) if $self->{'parent'};
+    weaken($self->{'parent'}) if exists($self->{'parent'});
 }
 
 =head1 Methods
