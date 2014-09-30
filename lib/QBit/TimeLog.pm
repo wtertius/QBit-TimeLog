@@ -50,7 +50,10 @@ use base qw(QBit::Class);
 
 use Time::HiRes qw(gettimeofday tv_interval);
 
-use overload '""' => sub {shift->as_string()};
+use overload
+  '""'   => sub {shift->as_string()},
+  'bool' => sub {TRUE},
+  ;
 
 =head1 Variables
 
