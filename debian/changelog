@@ -1,3 +1,9 @@
+libqbit-timelog-perl (0.4) saucy; urgency=low
+
+  * Don't stringify timelog object in boolean context.
+
+ -- Sergei Svistunov <sergei-svistunov@yandex.ru>  Tue, 30 Sep 2014 14:19:39 +0400
+
 libqbit-timelog-perl (0.3) saucy; urgency=low
 
   * Delete changelog
