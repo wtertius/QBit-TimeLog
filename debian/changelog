@@ -1,3 +1,9 @@
+libtertiusqbit-timelog-perl (0.5) saucy; urgency=low
+
+  * Rename debian package
+
+ -- Dmitry Lukiyanchuk <tertius@yandex-team.ru>  Fri, 17 Apr 2015 16:43:53 +0300
+
 libtertiusqbit-timelog-perl (0.4) saucy; urgency=low
 
   * Don't stringify timelog object in boolean context.
